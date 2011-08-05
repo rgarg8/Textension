@@ -2,14 +2,14 @@
 <?xml-stylesheet href="chrome://orgArgeeCodeTextension/skin/overlay.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://orgArgeeCodeTextension/locale/overlay.dtd">
 <overlay id="orgArgeeCodeTextension-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script src="overlay.js"/>
-  <script src="ff-overlay.js"/>
+	<script src="jquery.js"/>
+	<script src="textension.js"/>
 
-  <stringbundleset id="stringbundleset">
-    <stringbundle id="orgArgeeCodeTextension-strings" src="chrome://orgArgeeCodeTextension/locale/overlay.properties"/>
-  </stringbundleset>
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="orgArgeeCodeTextension-strings" src="chrome://orgArgeeCodeTextension/locale/overlay.properties"/>
+	</stringbundleset>
 
-
-
-
+	<keyset id="mainKeyset">
+		<key id="invoke-key" modifiers="shift" key="C" oncommand="orgArgeeCodeTextension.shortcutListener.invoke()"/>
+	</keyset>
 </overlay>
