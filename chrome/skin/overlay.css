@@ -1,0 +1,22 @@
+/* This is just an example.  You shouldn't do this. */
+#orgArgeeCodeTextension-hello
+{
+  color: red ! important;
+}
+#orgArgeeCodeTextension-toolbar-button
+{
+  list-style-image: url("chrome://orgArgeeCodeTextension/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#orgArgeeCodeTextension-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #orgArgeeCodeTextension-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #orgArgeeCodeTextension-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}

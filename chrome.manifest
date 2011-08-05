@@ -1,0 +1,6 @@
+content   orgArgeeCodeTextension                 chrome/content/
+skin      orgArgeeCodeTextension   classic/1.0   chrome/skin/
+locale    orgArgeeCodeTextension   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://orgArgeeCodeTextension/content/ff-overlay.xul

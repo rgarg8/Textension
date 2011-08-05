@@ -1,0 +1,8 @@
+<!ENTITY orgArgeeCodeTextension.label "Your localized menuitem">
+<!ENTITY orgArgeeCodeTextensionContext.label "Your Menuitem">
+<!ENTITY orgArgeeCodeTextensionContext.accesskey "Y">
+<!ENTITY orgArgeeCodeTextensionToolbarButton.label "Your Toolbar Button">
+<!ENTITY orgArgeeCodeTextensionToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY orgArgeeCodeTextensionSidebar.label "Your Sidebar">
+<!ENTITY orgArgeeCodeTextensionToolbar.name  "example">
+<!ENTITY orgArgeeCodeTextensionToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &orgArgeeCodeTextensionToolbar.name;">
